@@ -1,6 +1,10 @@
 from sqlalchemy import Column, Integer, String, Float, ForeignKey
 from sqlalchemy.orm import relationship
+<<<<<<< HEAD
 from app.database import Base
+=======
+from database import Base
+>>>>>>> e383d38da4b7ada234135755e995e610e46f44f9
 class EstacionDB(Base):
     __tablename__ = "estaciones"
     id = Column(Integer, primary_key=True, index=True)

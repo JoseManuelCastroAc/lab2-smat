@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 __pycache__/
 *.pyc
 .env
 venv/
 .env.*
+=======
+venv/
+__pycache__/
+*.pyc
+smat.db
+.pytest_cache/
+>>>>>>> e383d38da4b7ada234135755e995e610e46f44f9
